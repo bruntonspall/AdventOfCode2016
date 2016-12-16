@@ -16,3 +16,4 @@ class ErrorCodeTest(unittest.TestCase):
                  "sdttsa", "rasrtv", "nssdts", "ntnada", "svetve", "tesnvt",
                  "vntsnd", "vrdear", "dvrsen", "enarar"]
         self.assertEquals(find_freq(input), "easter")
+        self.assertEquals(find_least_freq(input), "advent")
