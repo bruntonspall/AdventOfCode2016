@@ -60,4 +60,5 @@ if __name__ == '__main__':
     lines = [l.strip() for l in f.readlines()]
     d = Display()
     d.parse(lines)
-    print d.count_pixels()
+    for l in d.render():
+        print l
