@@ -78,5 +78,6 @@ if __name__ == '__main__':
     lines = [l.strip() for l in f]
     cpu = CPU()
     cpu.load(lines)
+    cpu.registers["c"] = 1
     cpu.run()
     cpu.render()
